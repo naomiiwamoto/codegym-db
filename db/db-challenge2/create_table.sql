@@ -19,7 +19,7 @@ CREATE TABLE chat_rooms
 create_user_id INT not null,
 chat_name VARCHAR(100) not null,
 chat_description VARCHAR(1000),
-file_send_permit_flag tinyint(1) default 0 not null,
+file_send_permit_flag tinyint(1) default TRUE not null,
 direct_chat_flag tinyint(1) default 0 not null,
 created_at datetime not null,
 update_user_id INT not null,
