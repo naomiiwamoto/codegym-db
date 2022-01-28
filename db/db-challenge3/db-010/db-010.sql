@@ -14,4 +14,4 @@ INNER JOIN chat_rooms AS c
 ON c.id = p.chat_room_id
 INNER JOIN users AS u
 ON p.create_user_id = u.id
-ORDER BY p.chat_room_id DESC;
+ORDER BY p.chat_room_id ASC;

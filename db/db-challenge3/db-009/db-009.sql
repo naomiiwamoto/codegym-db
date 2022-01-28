@@ -7,4 +7,4 @@ JOIN users AS u
 ON u.id= p.create_user_id
 WHERE p.is_deleted=0 AND u.is_deleted=0
 GROUP BY p.chat_room_id
-ORDER BY 投稿数 ASC;
+ORDER BY 投稿数 DESC;
