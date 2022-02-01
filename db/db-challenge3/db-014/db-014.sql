@@ -1,4 +1,4 @@
-COMMIT;
+BEGIN;
 
 DELETE chat_connections 
 FROM chat_connections 
